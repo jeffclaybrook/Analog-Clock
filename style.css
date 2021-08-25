@@ -1,0 +1,171 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 16px;
+}
+
+body {
+   font-family: Poppins, sans-serif;
+   font-size: 100%;
+   background: hsl(235, 100%, 96%);
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+
+.box {
+   width: 90vw;
+   height: 90vw;
+   position: relative;
+   overflow: hidden;
+   background: linear-gradient(135deg, hsl(234, 100%, 82%) 0%, hsl(232, 100%, 73%) 25%, hsl(231, 99%, 66%) 40%, hsl(228, 96%, 57%) 62%, hsl(229, 87%, 53%) 80%, hsl(227, 88%, 47%) 100%);
+   border-radius: 50%;
+}
+
+.box:before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 20px;
+   height: 20px;
+   background-color: #fff;
+   border-radius: 50%;
+}
+
+.handle {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.handle div {
+   position: absolute;
+   bottom: 50%;
+   left: 50%;
+   transform: translateX(-50%);
+   background-color: #fff;
+}
+
+.sec {
+   width: 2px;
+   height: 30%;
+}
+
+.min {
+   height: 27%;
+   width: 5px;
+}
+
+.hour {
+   height: 22%;
+   width: 10px;
+}
+
+.line {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   text-align: center;
+   font-size: 24px;
+   padding: 18px;
+   color: #fff;
+}
+
+.line1 {
+   transform: rotate(30deg);
+}
+
+.line1 div {
+   transform: rotate(-30deg);
+}
+
+.line2 {
+   transform: rotate(60deg);
+}
+
+.line2 div {
+   transform: rotate(-60deg);
+}
+
+.line3 {
+   transform: rotate(90deg);
+}
+
+.line3 div {
+   transform: rotate(-90deg);
+}
+
+.line4 {
+   transform: rotate(120deg);
+}
+
+.line4 div {
+   transform: rotate(-120deg);
+}
+
+.line5 {
+   transform: rotate(150deg);
+}
+
+.line5 div {
+   transform: rotate(-150deg);
+}
+
+.line6 {
+   transform: rotate(180deg);
+}
+
+.line6 div {
+   transform: rotate(-180deg);
+}
+
+.line7 {
+   transform: rotate(210deg);
+}
+
+.line7 div {
+   transform: rotate(-210deg);
+}
+
+.line8 {
+   transform: rotate(240deg);
+}
+
+.line8 div {
+   transform: rotate(-240deg);
+}
+
+.line9 {
+   transform: rotate(270deg);
+}
+
+.line9 div {
+   transform: rotate(-270deg);
+}
+
+.line10 {
+   transform: rotate(300deg);
+}
+
+.line10 div {
+   transform: rotate(-300deg);
+}
+
+.line11 {
+   transform: rotate(330deg);
+}
+
+.line11 div {
+   transform: rotate(-330deg);
+}
