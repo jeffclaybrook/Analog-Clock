@@ -14,6 +14,7 @@ body {
    background: hsl(235, 100%, 96%);
    height: 100vh;
    width: 100vw;
+   overflow: hidden;
 }
 
 .box {
@@ -170,8 +171,8 @@ body {
 
 @media only screen and (max-width: 600px) {
    .box {
-      width: 90vw;
-      height: 90vw;
+      width: 80vw;
+      height: 80vw;
    }
 }
 
